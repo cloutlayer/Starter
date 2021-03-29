@@ -1,0 +1,27 @@
+# Node
+node_modules
+test/results
+test/coverage
+npm-debug.log
+package-lock.json
+
+## OS X
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# IDEs
+.idea/*
+*.iml
+projectFilesBackup
+
+# logs/
+*.log
+
+# Local Server stuff
+@server/logs/
+
+# Builds
+# Comment dist/ if you would like to include zipped themes and assets
+dist/

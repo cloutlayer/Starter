@@ -1,0 +1,20 @@
+{
+  "@request": {},
+
+  "@baseUrl": "",
+  "@assetsBaseUrl": "",
+
+  "@pageProperties": {},
+
+  "@website": {
+    "title": "Cloutlayer"
+  },
+  "@debug": {},
+  "@page": {},
+  "@pageDefinition": {},
+  "@theme": {},
+  "@route": {},
+
+  "@error": null,
+  "@handlebarsError": null
+}

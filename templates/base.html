@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Powered by Cloutlayer! 🐺
+https://www.cloutlayer.com
+-->
+{{!-- lang, dir: You can easily create a singleton to save these settings and load them dynamically on the template. --}}
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{{@pageProperties.title}} - {{@website.title}}</title>
+    <link rel="shortcut icon" href="https://www.cloutlayer.com/static/default/assets/pwa/favicon.ico"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="{{ asset_url 'vendor/bootstrap/bootstrap-5.0.0-beta3.min.css' }}" rel="stylesheet"/>
+    <link href="{{ asset_url 'built/styles.css' }}" rel="stylesheet"/>
+
+    {{#block "extra_styles"}}{{/block}}
+</head>
+<body>
+{{#block "header"}}
+    {{> partials/header}}
+{{/block}}
+
+{{#block "content"}}{{/block}}
+
+{{#block "footer"}}
+    {{> partials/footer}}
+{{/block}}
+
+<script src="{{ asset_url 'vendor/jquery/jquery-3.6.0.min.js' }}"></script>
+<script src="{{ asset_url 'vendor/popper/popper-core-2.9.1.min.js' }}"></script>
+<script src="{{ asset_url 'vendor/bootstrap/bootstrap-5.0.0-beta3.min.js' }}"></script>
+
+{{#block "extra_scripts"}}{{/block}}
+</body>
+</html>
