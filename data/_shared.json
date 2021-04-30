@@ -7,9 +7,11 @@
   "@website": {
     "title": "Cloutlayer"
   },
-  "@debug": {},
+  "@debug": true,
   "@page": {},
+  "@pageDatums": {},
   "@pageDefinition": {},
+  "@template": {},
   "@theme": {},
   "@route": {},
 
